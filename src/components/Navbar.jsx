@@ -151,7 +151,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/arunike/arunike.github.io"
+                href="https://github.com/arunike/Portfolio-React"
                 target="_blank"
                 className="fork-btn-inner"
               >
