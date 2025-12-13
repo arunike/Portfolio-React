@@ -27,7 +27,6 @@ import CS579 from "../../assets/imgs/courses/compsci579.gif";
 import BadgerBakeryDemo from "../../assets/video/cs571/badger_bakery_ios_demo.mp4";
 import BadgerNewsDemo from "../../assets/video/cs571/badger_news_ios_demo.mp4";
 import BadgerChatDemo from "../../assets/video/cs571/badger_chat_ios_demo.mp4";
-import CyberpunkVRRacingGame from "../../assets/video/cs579/cyberpunk_vr_racing_game_demo.mp4";
 import BadgerChatDialogflowDemo from "../../assets/video/cs571/badger_chat_dialogflow_demo.mp4";
 import SongOfTheWind from "../../assets/video/projects/song_of_the_wind_demo.mov";
 
@@ -237,9 +236,8 @@ function Projects() {
       title: "Cyberpunk VR Racing Game",
       description:
         "Cyberpunk VR Racing Game was a project built in my COMP SCI 579 course, it is VR racing game, that focuses on the details of the futuristic city and track design. As a team, we created a city that has a distinct cyberpunk aesthetic, with towering skyscrapers, neon lights, and gritty, industrial elements. The track is challenging, with twists, turns, and obstacles that require skillful driving to navigate. The game appeal to fans of both cyberpunk and racing games.",
-      demoLinks: [CyberpunkVRRacingGame],
+      demoLinks: ["https://www.youtube.com/watch?v=K6kVYzrBCss"],
       demoName: "Demo",
-      demoLinkIsVideo: { [CyberpunkVRRacingGame]: true },
       technologies: ["Unity", "C#", "VR"],
     },
     {

@@ -5,6 +5,7 @@
 @import "./css/pages/project.css";
 @import "./css/pages/skills.css";
 @import "./css/pages/timeline.css";
+@import "./css/pages/resume.css";
 
 html {
   --section-background-color: linear-gradient(

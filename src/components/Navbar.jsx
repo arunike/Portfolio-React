@@ -136,7 +136,7 @@ function NavBar() {
               </HashLink>
             </Nav.Item>
 
-            {/* <Nav.Item className="nav-item-custom resume">
+            <Nav.Item className="nav-item-custom resume">
               <Nav.Link
                 smooth
                 as={Link}
@@ -147,7 +147,7 @@ function NavBar() {
                 <CgFileDocument className="icon" />
                 <span>Resume</span>
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button

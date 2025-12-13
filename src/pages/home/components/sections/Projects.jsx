@@ -14,7 +14,6 @@ import CS506 from "../../../../assets/imgs/courses/compsci506.png";
 import CS579 from "../../../../assets/imgs/courses/compsci579.gif";
 import CS559 from "../../../../assets/imgs/courses/compsci559.gif";
 import PACMAN from "../../../../assets/imgs/projects/pacman.gif";
-import CyberpunkVRRacingGame from "../../../../assets/video/cs579/cyberpunk_vr_racing_game_demo.mp4";
 
 function Projects() {
   const projectsData = [
@@ -60,9 +59,8 @@ function Projects() {
       id: "vr-racing-game",
       imgPath: CS579,
       title: "Cyberpunk VR Racing Game",
-      demoLinks: [CyberpunkVRRacingGame],
+      demoLinks: ["https://www.youtube.com/watch?v=K6kVYzrBCss"],
       demoName: "Demo",
-      demoLinkIsVideo: { [CyberpunkVRRacingGame]: true },
     },
     {
       id: "cs559-graphics",

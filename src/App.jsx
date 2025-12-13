@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/home/HomePage";
 import Projects from "./pages/projects/Projects";
 import Footer from "./components/Footer";
-import Resume from "./pages/resume/ResumeNew";
+import Resume from "./pages/resume/ResumePdf";
 import {
   HashRouter as Router,
   Route,

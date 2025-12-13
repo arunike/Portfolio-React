@@ -1,0 +1,56 @@
+.resume-section {
+  position: relative;
+  padding-top: 110px !important;
+  padding-bottom: 30px !important;
+}
+
+.resume-title {
+  font-size: 2.5em !important;
+  padding-bottom: 20px !important;
+  font-weight: 700 !important;
+  text-align: center;
+}
+
+.resume-pdf-container {
+  border: 2px solid #accce6;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 20px rgba(172, 204, 230, 0.2);
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.resume-loading,
+.resume-error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  color: white;
+}
+
+.loading-spinner {
+  border: 4px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  border-top: 4px solid #accce6;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 767px) {
+  .resume-title {
+    font-size: 2em !important;
+  }
+}
