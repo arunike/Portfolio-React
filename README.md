@@ -1,28 +1,100 @@
-# Richie Zhou's Portfolio
+# 🚀 Portfolio Website
 
-A modern, interactive portfolio website showcasing my software engineering projects, skills, and professional journey. Built with React and featuring smooth animations, particle effects, and a clean, responsive design.
+A modern, interactive portfolio website showcasing software engineering projects, skills, and professional journey. Built with React and featuring smooth animations, particle effects, and a clean, responsive design.
 
-## 🌟 Features
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-- **Dynamic Home Section** - Eye-catching animated header with particle background and typewriter effect
-- **Interactive Navigation** - Responsive navbar with smooth scrolling and hash-based routing
-- **Modular Component Architecture** - Organized React components for maintainability and scalability
-- **Projects Showcase** - Comprehensive gallery of personal, course, and game development projects with modals
-- **Course Taken Page** - Detailed reviews of university courses with ratings, workload estimates, and descriptions
-- **Skills Display** - Categorized tech stack including programming languages, frameworks, databases, and tools
-- **Timeline Component** - Visual representation of education and professional experience
-- **Contact Form** - Interactive form for project inquiries and collaboration
-- **Resume Viewer** - PDF resume viewer with download capability
-- **Particle Effects** - Interactive tsParticles background animations
-- **Responsive Design** - Mobile-first design optimized for all screen sizes
-- **GitHub Integration** - GitHub contribution calendar display
+## 📋 Table of Contents
 
-## 🚀 Getting Started
+- [Overview](#-overview)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Getting Started](#-getting-started)
+- [Project Structure](#-project-structure)
+- [Development](#-development)
+- [Deployment](#-deployment)
+- [License](#-license)
+- [Author](#-author)
+
+## 🌟 Overview
+
+A dynamic portfolio website built with modern web technologies to showcase professional software engineering work. Features interactive animations, responsive design, and seamless navigation for an engaging user experience.
+
+**Key Capabilities:**
+
+- 🎨 **Interactive UI**: Particle effects and smooth animations create an engaging experience
+- 📱 **Fully Responsive**: Mobile-first design optimized for all screen sizes
+- 🖼️ **Project Showcase**: Comprehensive gallery with detailed project modals
+- 📊 **GitHub Integration**: Live contribution calendar and stats display
+- 📄 **Resume Viewer**: Built-in PDF viewer with download capability
+- 🎓 **Course Reviews**: Detailed university course reviews with ratings and workload estimates
+- ⚡ **Fast Performance**: Optimized with Vite for lightning-fast load times
+
+## ✨ Features
+
+### 🏗️ Core Pages
+
+- **Home Section**: Animated header with particle background and typewriter effect
+- **Projects Gallery**: Comprehensive showcase of personal, course, and game development projects with modals
+- **Course Reviews**: Detailed reviews of university courses with ratings and workload estimates
+- **Resume Page**: PDF resume viewer with download capability
+
+### 🎨 Interactive Components
+
+- **Dynamic Navigation**: Responsive navbar with smooth scrolling and hash-based routing
+- **Timeline Component**: Visual representation of education and professional experience
+- **Contact Form**: Interactive form for project inquiries and collaboration
+- **GitHub Calendar**: Real-time contribution activity visualization
+
+### 🛠️ Advanced Features
+
+- **Particle Effects**: Interactive tsParticles background animations
+- **Skills Display**: Categorized tech stack including languages, frameworks, databases, and tools
+- **3D Tilt Effects**: Interactive hover animations on project cards
+- **Error Boundaries**: Graceful error handling throughout the application
+
+## 🛠 Tech Stack
+
+### Core Framework
+
+- **React 18** - UI library
+- **Vite** - Blazing fast build tool
+- **React Router DOM 6** - Client-side routing
+
+### UI Components & Styling
+
+- **Bootstrap 5** - CSS framework for responsive design
+- **React Bootstrap** - Bootstrap components as React
+- **Framer Motion** - Smooth animations
+- **Lucide React** & **React Icons** - Beautiful icon libraries
+
+### Specialized Libraries
+
+- **react-tsparticles** - Particle animation effects
+- **typewriter-effect** - Animated typing effect
+- **react-parallax-tilt** - 3D tilt hover effects
+- **react-pdf** - PDF document viewer
+- **react-modal** - Accessible modal dialogs
+- **react-github-calendar** - GitHub contribution visualization
+- **react-vertical-timeline-component** - Timeline UI
+- **react-router-hash-link** - Smooth scrolling navigation
+- **react-tooltip** - Customizable tooltips
+- **react-error-boundary** - Error handling
+
+### Development Tools
+
+- **ESLint** - Code linting with React-specific rules
+- **Prettier** - Code formatting
+- **Husky** - Git hooks for pre-commit actions
+- **lint-staged** - Run linters on staged files
+- **gh-pages** - GitHub Pages deployment
+
+## � Getting Started
 
 ### Prerequisites
 
-- Node.js (v20.0.0 or higher)
-- npm or yarn package manager
+- Node.js (v20.0+ recommended)
+- npm
 
 ### Installation
 
@@ -30,24 +102,28 @@ A modern, interactive portfolio website showcasing my software engineering proje
 
    ```bash
    git clone https://github.com/arunike/Portfolio-React.git
+   ```
+
+2. **Navigate to project directory**
+
+   ```bash
    cd Portfolio-React
    ```
 
-2. **Install dependencies**
+3. **Install Dependencies**
 
    ```bash
    npm install
    ```
 
-3. **Start the development server**
+4. **Start the Development Server**
 
    ```bash
    npm run dev
    ```
 
-4. **Open your browser**
-
-   Navigate to the URL shown in your terminal (typically `http://localhost:5173`)
+5. **Open Your Browser**
+   Navigate to `http://localhost:5173`
 
 ### Available Scripts
 
@@ -59,105 +135,50 @@ A modern, interactive portfolio website showcasing my software engineering proje
 - `npm run prettier` - Format all files with Prettier
 - `npm run deploy` - Deploy to GitHub Pages
 
-## 🛠️ Tech Stack
-
-### Core Technologies
-
-- **React 18** - UI library for building component-based interfaces
-- **React Router DOM 6** - Client-side routing with hash-based navigation
-- **Vite** - Fast build tool and development server
-- **Bootstrap 5** - CSS framework for responsive design
-- **React Bootstrap** - Bootstrap components as React components
-
-### Key Libraries
-
-- **react-tsparticles** - Particle animation effects
-- **typewriter-effect** - Animated typing effect
-- **react-icons** - Icon library (AI, CG, RI, MD, BS icons)
-- **react-parallax-tilt** - 3D tilt hover effects
-- **react-pdf** - PDF document viewer
-- **react-modal** - Accessible modal dialogs
-- **react-github-calendar** - GitHub contribution calendar visualization
-- **react-vertical-timeline-component** - Vertical timeline UI
-- **react-router-hash-link** - Smooth scrolling to hash links
-- **react-tooltip** - Customizable tooltips
-- **motion (Framer Motion)** - Animation library
-- **react-error-boundary** - Error boundary components
-
-### Development Tools
-
-- **ESLint** - Code linting with React-specific rules
-- **Prettier** - Code formatting
-- **Husky** - Git hooks for pre-commit actions
-- **lint-staged** - Run linters on staged files
-- **gh-pages** - GitHub Pages deployment
-
 ## 📁 Project Structure
 
 ```
 src/
 ├── App.jsx                # Main application component with routing
 ├── index.jsx              # Application entry point
-├── style.css              # Global styles
-├── App.css                # App-specific styles
 ├── components/            # Reusable UI components
-│   ├── Navbar.jsx         # Navigation bar with routing links
+│   ├── Navbar.jsx         # Navigation bar
 │   ├── Footer.jsx         # Footer with social links
 │   ├── Particle.jsx       # Particle background effect
 │   ├── Pre.jsx            # Preloader component
 │   ├── ScrollToTop.jsx    # Scroll to top on route change
-│   ├── IndexHTML.jsx      # HTML content viewer for projects
+│   ├── IndexHTML.jsx      # HTML content viewer
 │   └── IndexFolderHTML.jsx # Folder-based HTML viewer
 ├── pages/                 # Page components
 │   ├── home/              # Home page
-│   │   ├── HomePage.jsx   # Main home page layout
-│   │   └── components/    # Home page sections
-│   │       ├── Header.jsx # Hero section with typewriter
-│   │       ├── PDFViewer.jsx # Resume PDF viewer
-│   │       ├── Type.jsx   # Typewriter animation component
+│   │   ├── HomePage.jsx   # Main home layout
+│   │   └── components/    # Home sections
+│   │       ├── Header.jsx # Hero section
+│   │       ├── PDFViewer.jsx # Resume viewer
+│   │       ├── Type.jsx   # Typewriter animation
 │   │       ├── sections/  # Main content sections
-│   │       │   ├── AboutMe.jsx # About section
-│   │       │   ├── Contact.jsx # Contact form
-│   │       │   ├── Projects.jsx # Featured projects
-│   │       │   ├── Skills.jsx # Tech stack display
-│   │       │   └── Timeline.jsx # Experience timeline
+│   │       │   ├── AboutMe.jsx
+│   │       │   ├── Contact.jsx
+│   │       │   ├── Projects.jsx
+│   │       │   ├── Skills.jsx
+│   │       │   └── Timeline.jsx
 │   │       ├── github/
 │   │       │   └── Github.jsx # GitHub stats
 │   │       └── skills/    # Skill category components
-│   │           ├── ProgrammingLangStack.jsx
-│   │           ├── FrameworkStack.jsx
-│   │           ├── DatabaseStack.jsx
-│   │           ├── WebDevStack.jsx
-│   │           ├── ToolStack.jsx
-│   │           └── OtherStack.jsx
 │   ├── projects/          # Projects page
 │   │   ├── Projects.jsx   # Projects gallery
-│   │   ├── ProjectCards.jsx # Individual project cards
+│   │   ├── ProjectCards.jsx
 │   │   └── Modal.jsx      # Project detail modal
 │   ├── course_takens/     # Courses page
-│   │   └── Course_Taken.jsx # Course reviews
+│   │   └── Course_Taken.jsx
 │   └── resume/            # Resume page
-│       └── Resume.jsx  # Resume viewer
-├── css/                   # Organized stylesheets
+│       └── Resume.jsx
+├── css/                   # Stylesheets
 │   ├── components/        # Component-specific styles
-│   │   ├── button.css
-│   │   └── pdf_viewer.css
 │   └── pages/             # Page-specific styles
-│       ├── contact.css
-│       ├── course_taken.css
-│       ├── project.css
-│       ├── skills.css
-│       └── timeline.css
-└── assets/                # Static assets
-    ├── imgs/              # Images organized by type
-    │   ├── courses/       # Course thumbnails
-    │   ├── projects/      # Project screenshots
-    │   ├── techstack/     # Technology icons
-    │   └── timeline/      # Timeline images
+└── assets/                # Static assets (images, videos, PDFs)
+    ├── imgs/              # Images organized by category
     ├── video/             # Video demonstrations
-    │   ├── cs571/         # Course videos
-    │   ├── cs579/
-    │   └── projects/
     ├── resume/            # Resume PDFs
     └── diploma/           # Certificates
 ```
@@ -168,47 +189,20 @@ src/
 
 This project maintains high code quality through:
 
-- **ESLint Configuration**
-  - React-specific linting rules
-  - JSX accessibility checks
-  - Import order validation
-  - React Hooks rules
-  - Prettier integration
-
-- **Prettier Configuration**
-  - Automatic code formatting
-  - Consistent style across the codebase
-
-- **Husky Git Hooks**
-  - Pre-commit hooks for linting and formatting
-  - Prevents committing code with errors
-
-- **lint-staged**
-  - Runs linters only on staged files
-  - Formats JavaScript, JSX, JSON, CSS, and Markdown files
+- **ESLint**: React-specific linting rules, JSX accessibility checks, and React Hooks rules
+- **Prettier**: Automatic code formatting for consistent style
+- **Husky Git Hooks**: Pre-commit hooks for linting and formatting
+- **lint-staged**: Runs linters only on staged files
 
 ### Project Conventions
 
-- **Component Organization**: Components are organized by feature and page
-- **CSS Structure**: Separate CSS files for components and pages
-- **Asset Management**: Images and videos organized by category
-- **Naming Conventions**: PascalCase for components, camelCase for functions
-- **Import Order**: External dependencies → Internal components → Styles → Assets
+- Component Organization: Organized by feature and page
+- CSS Structure: Separate files for components and pages
+- Asset Management: Images and videos organized by category
+- Naming Conventions: PascalCase for components, camelCase for functions
+- Import Order: External dependencies → Internal components → Styles → Assets
 
-## 📦 Building for Production
-
-```bash
-npm run build
-```
-
-The optimized production build will be in the `dist/` directory. The build process:
-
-- Minifies JavaScript and CSS
-- Optimizes images and assets
-- Generates source maps
-- Creates a production-ready bundle
-
-## 🚀 Deployment
+## � Deployment
 
 ### GitHub Pages
 
@@ -216,15 +210,19 @@ The optimized production build will be in the `dist/` directory. The build proce
 npm run deploy
 ```
 
-This command:
+This command builds the production bundle and deploys to the `gh-pages` branch, making the site available at your GitHub Pages URL.
 
-1. Builds the production bundle
-2. Deploys to the `gh-pages` branch
-3. Makes the site available at your GitHub Pages URL
+### Building for Production
+
+```bash
+npm run build
+```
+
+The optimized production build will be in the `dist/` directory with minified JavaScript/CSS, optimized assets, and source maps.
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details.
 
 ## 👤 Author
 
@@ -233,11 +231,3 @@ This project is licensed under the MIT License.
 - GitHub: [@arunike](https://github.com/arunike)
 - LinkedIn: [richiezhou](https://www.linkedin.com/in/richiezhou)
 - Portfolio: [arunike.github.io](https://arunike.github.io)
-
-## 🙏 Acknowledgments
-
-- University of Wisconsin-Madison Computer Sciences Department
-- React and Vite communities for excellent documentation
-- Open source contributors of all dependencies
-- Bootstrap team for the responsive framework
-- tsParticles for the particle effects library
